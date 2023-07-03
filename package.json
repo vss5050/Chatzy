@@ -1,5 +1,5 @@
 {
-  "name": "ome",
+  "name": "Chatzy",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -18,5 +18,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
     "socket.io": "^4.7.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
