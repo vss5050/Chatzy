@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ome</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.1/socket.io.js" integrity="sha512-Z6C1p1NIexPj5MsVUunW4pg7uMX6/TT3CUVldmjXx2kpip1eZcrAnxIusDxyFIikyM9A61zOVNgvLr/TGudOQg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <img class="logo" alt="logo">
+                <h2>Talk to stranger</h2>
+                <div class="online-status">5000+ live now</div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="video-chat-main-container">
+        <div class="video-chat-container">
+            <div class="video-tag-container">
+                <div class="videos">
+                    <video src="" class="video-player" id="user-1" autoplay playsinline></video>
+                    <video src="" class="video-player" id="user-2" style="border-top: 2px solid white;" autoplay playsinline></video>
+                </div>
+            </div>
+            <div class="chat-container">
+                <div class="chat-text-container">
+                    <p>you are now chatting with a random stranger</p>
+                    <p>you both speak the same language english</p>
+                    <hr class="horizontal-divider">
+                    <p class="chat-text-area"></p>
+                </div>
+                <div class="next-chat-container">
+                    <div class="type-msg">
+                        <textarea name="" id="msg-input" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="msg-send-button">Send</div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>
